@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F81EF422A19103B00F551A7 /* Basuh Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F81EF412A19103B00F551A7 /* Basuh Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F81EF472A19103B00F551A7 /* BasuhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81EF462A19103B00F551A7 /* BasuhApp.swift */; };
+		3F81EF492A19103B00F551A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81EF482A19103B00F551A7 /* ContentView.swift */; };
+		3F81EF4B2A19103C00F551A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F81EF4A2A19103C00F551A7 /* Assets.xcassets */; };
+		3F81EF4E2A19103C00F551A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F81EF4D2A19103C00F551A7 /* Preview Assets.xcassets */; };
+		3F81EF582A19103C00F551A7 /* Basuh_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81EF572A19103C00F551A7 /* Basuh_Watch_AppTests.swift */; };
+		3F81EF622A19103C00F551A7 /* Basuh_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81EF612A19103C00F551A7 /* Basuh_Watch_AppUITests.swift */; };
+		3F81EF642A19103C00F551A7 /* Basuh_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F81EF632A19103C00F551A7 /* Basuh_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F81EF432A19103B00F551A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F81EF352A19103B00F551A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F81EF402A19103B00F551A7;
+			remoteInfo = "Basuh Watch App";
+		};
+		3F81EF542A19103C00F551A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F81EF352A19103B00F551A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F81EF402A19103B00F551A7;
+			remoteInfo = "Basuh Watch App";
+		};
+		3F81EF5E2A19103C00F551A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F81EF352A19103B00F551A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F81EF402A19103B00F551A7;
+			remoteInfo = "Basuh Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F81EF6A2A19103C00F551A7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F81EF422A19103B00F551A7 /* Basuh Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F81EF3B2A19103B00F551A7 /* Basuh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basuh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F81EF412A19103B00F551A7 /* Basuh Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basuh Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F81EF462A19103B00F551A7 /* BasuhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasuhApp.swift; sourceTree = "<group>"; };
+		3F81EF482A19103B00F551A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F81EF4A2A19103C00F551A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F81EF4D2A19103C00F551A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F81EF532A19103C00F551A7 /* Basuh Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basuh Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F81EF572A19103C00F551A7 /* Basuh_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basuh_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3F81EF5D2A19103C00F551A7 /* Basuh Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basuh Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F81EF612A19103C00F551A7 /* Basuh_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basuh_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3F81EF632A19103C00F551A7 /* Basuh_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basuh_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F81EF3E2A19103B00F551A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF502A19103C00F551A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF5A2A19103C00F551A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F81EF342A19103B00F551A7 = {
+			isa = PBXGroup;
+			children = (
+				3F81EF452A19103B00F551A7 /* Basuh Watch App */,
+				3F81EF562A19103C00F551A7 /* Basuh Watch AppTests */,
+				3F81EF602A19103C00F551A7 /* Basuh Watch AppUITests */,
+				3F81EF3C2A19103B00F551A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F81EF3C2A19103B00F551A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F81EF3B2A19103B00F551A7 /* Basuh.app */,
+				3F81EF412A19103B00F551A7 /* Basuh Watch App.app */,
+				3F81EF532A19103C00F551A7 /* Basuh Watch AppTests.xctest */,
+				3F81EF5D2A19103C00F551A7 /* Basuh Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F81EF452A19103B00F551A7 /* Basuh Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3F81EF462A19103B00F551A7 /* BasuhApp.swift */,
+				3F81EF482A19103B00F551A7 /* ContentView.swift */,
+				3F81EF4A2A19103C00F551A7 /* Assets.xcassets */,
+				3F81EF4C2A19103C00F551A7 /* Preview Content */,
+			);
+			path = "Basuh Watch App";
+			sourceTree = "<group>";
+		};
+		3F81EF4C2A19103C00F551A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F81EF4D2A19103C00F551A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F81EF562A19103C00F551A7 /* Basuh Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F81EF572A19103C00F551A7 /* Basuh_Watch_AppTests.swift */,
+			);
+			path = "Basuh Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3F81EF602A19103C00F551A7 /* Basuh Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F81EF612A19103C00F551A7 /* Basuh_Watch_AppUITests.swift */,
+				3F81EF632A19103C00F551A7 /* Basuh_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Basuh Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F81EF3A2A19103B00F551A7 /* Basuh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F81EF6B2A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh" */;
+			buildPhases = (
+				3F81EF392A19103B00F551A7 /* Resources */,
+				3F81EF6A2A19103C00F551A7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F81EF442A19103B00F551A7 /* PBXTargetDependency */,
+			);
+			name = Basuh;
+			productName = Basuh;
+			productReference = 3F81EF3B2A19103B00F551A7 /* Basuh.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3F81EF402A19103B00F551A7 /* Basuh Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F81EF672A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh Watch App" */;
+			buildPhases = (
+				3F81EF3D2A19103B00F551A7 /* Sources */,
+				3F81EF3E2A19103B00F551A7 /* Frameworks */,
+				3F81EF3F2A19103B00F551A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basuh Watch App";
+			productName = "Basuh Watch App";
+			productReference = 3F81EF412A19103B00F551A7 /* Basuh Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F81EF522A19103C00F551A7 /* Basuh Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F81EF6E2A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh Watch AppTests" */;
+			buildPhases = (
+				3F81EF4F2A19103C00F551A7 /* Sources */,
+				3F81EF502A19103C00F551A7 /* Frameworks */,
+				3F81EF512A19103C00F551A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F81EF552A19103C00F551A7 /* PBXTargetDependency */,
+			);
+			name = "Basuh Watch AppTests";
+			productName = "Basuh Watch AppTests";
+			productReference = 3F81EF532A19103C00F551A7 /* Basuh Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F81EF5C2A19103C00F551A7 /* Basuh Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F81EF712A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh Watch AppUITests" */;
+			buildPhases = (
+				3F81EF592A19103C00F551A7 /* Sources */,
+				3F81EF5A2A19103C00F551A7 /* Frameworks */,
+				3F81EF5B2A19103C00F551A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F81EF5F2A19103C00F551A7 /* PBXTargetDependency */,
+			);
+			name = "Basuh Watch AppUITests";
+			productName = "Basuh Watch AppUITests";
+			productReference = 3F81EF5D2A19103C00F551A7 /* Basuh Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F81EF352A19103B00F551A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3F81EF3A2A19103B00F551A7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3F81EF402A19103B00F551A7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3F81EF522A19103C00F551A7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3F81EF402A19103B00F551A7;
+					};
+					3F81EF5C2A19103C00F551A7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3F81EF402A19103B00F551A7;
+					};
+				};
+			};
+			buildConfigurationList = 3F81EF382A19103B00F551A7 /* Build configuration list for PBXProject "Basuh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F81EF342A19103B00F551A7;
+			productRefGroup = 3F81EF3C2A19103B00F551A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F81EF3A2A19103B00F551A7 /* Basuh */,
+				3F81EF402A19103B00F551A7 /* Basuh Watch App */,
+				3F81EF522A19103C00F551A7 /* Basuh Watch AppTests */,
+				3F81EF5C2A19103C00F551A7 /* Basuh Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F81EF392A19103B00F551A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF3F2A19103B00F551A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F81EF4E2A19103C00F551A7 /* Preview Assets.xcassets in Resources */,
+				3F81EF4B2A19103C00F551A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF512A19103C00F551A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF5B2A19103C00F551A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F81EF3D2A19103B00F551A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F81EF492A19103B00F551A7 /* ContentView.swift in Sources */,
+				3F81EF472A19103B00F551A7 /* BasuhApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF4F2A19103C00F551A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F81EF582A19103C00F551A7 /* Basuh_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F81EF592A19103C00F551A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F81EF642A19103C00F551A7 /* Basuh_Watch_AppUITestsLaunchTests.swift in Sources */,
+				3F81EF622A19103C00F551A7 /* Basuh_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F81EF442A19103B00F551A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F81EF402A19103B00F551A7 /* Basuh Watch App */;
+			targetProxy = 3F81EF432A19103B00F551A7 /* PBXContainerItemProxy */;
+		};
+		3F81EF552A19103C00F551A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F81EF402A19103B00F551A7 /* Basuh Watch App */;
+			targetProxy = 3F81EF542A19103C00F551A7 /* PBXContainerItemProxy */;
+		};
+		3F81EF5F2A19103C00F551A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F81EF402A19103B00F551A7 /* Basuh Watch App */;
+			targetProxy = 3F81EF5E2A19103C00F551A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F81EF652A19103C00F551A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F81EF662A19103C00F551A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3F81EF682A19103C00F551A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Basuh Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Basuh;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MillennianIbnuAdriansyahKarinda.Basuh.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3F81EF692A19103C00F551A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Basuh Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Basuh;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MillennianIbnuAdriansyahKarinda.Basuh.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3F81EF6C2A19103C00F551A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Basuh;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MillennianIbnuAdriansyahKarinda.Basuh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F81EF6D2A19103C00F551A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = Basuh;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MillennianIbnuAdriansyahKarinda.Basuh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F81EF6F2A19103C00F551A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillennianIbnuAdriansyahKarinda.Basuh-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basuh Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Basuh Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3F81EF702A19103C00F551A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillennianIbnuAdriansyahKarinda.Basuh-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basuh Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Basuh Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		3F81EF722A19103C00F551A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillennianIbnuAdriansyahKarinda.Basuh-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Basuh Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		3F81EF732A19103C00F551A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MillennianIbnuAdriansyahKarinda.Basuh-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Basuh Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F81EF382A19103B00F551A7 /* Build configuration list for PBXProject "Basuh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F81EF652A19103C00F551A7 /* Debug */,
+				3F81EF662A19103C00F551A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F81EF672A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F81EF682A19103C00F551A7 /* Debug */,
+				3F81EF692A19103C00F551A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F81EF6B2A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F81EF6C2A19103C00F551A7 /* Debug */,
+				3F81EF6D2A19103C00F551A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F81EF6E2A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F81EF6F2A19103C00F551A7 /* Debug */,
+				3F81EF702A19103C00F551A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F81EF712A19103C00F551A7 /* Build configuration list for PBXNativeTarget "Basuh Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F81EF722A19103C00F551A7 /* Debug */,
+				3F81EF732A19103C00F551A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F81EF352A19103B00F551A7 /* Project object */;
+}
